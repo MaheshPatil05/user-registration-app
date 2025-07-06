@@ -112,8 +112,6 @@ react-app/
 
 ├── backend/
 
-│   ├── node_modules/
-
 │   ├── .env          // Environment variables (ignored by Git)
 
 │   ├── package.json
@@ -121,10 +119,15 @@ react-app/
 │   ├── server.js     // Express server setup, MongoDB connection, API routes
 
 └── frontend/
-    ├── node_modules/
+
     ├── public/
+    
     ├── src/
+    
     │   ├── App.js    // Main React component, form logic
+    
     │   ├── index.css // Basic styling
+    
     │   └── index.js
+    
     ├── package.json
