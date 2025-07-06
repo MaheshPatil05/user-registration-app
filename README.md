@@ -1,4 +1,3 @@
-# user-registration-app
 # User Registration Full-Stack Application
 This project is a foundational full-stack web application demonstrating a user registration system. It showcases the integration of a React.js frontend, a Node.js/Express.js backend, and a MongoDB database, following a common MERN-like stack pattern.
 
@@ -110,11 +109,17 @@ Verify the new user document in your MongoDB database (using MongoDB Compass or 
 
 📂 Project Structure
 react-app/
+
 ├── backend/
+
 │   ├── node_modules/
+
 │   ├── .env          // Environment variables (ignored by Git)
+
 │   ├── package.json
+
 │   ├── server.js     // Express server setup, MongoDB connection, API routes
+
 └── frontend/
     ├── node_modules/
     ├── public/
