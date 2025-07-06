@@ -68,7 +68,7 @@ npm install # or yarn install
 Create a .env file in the backend directory and add your MongoDB connection URI and desired port:
 
 DB_URI='mongodb+srv://<your-atlas-username>:<your-atlas-password>@<your-cluster-name>.mongodb.net/<your-database-name>?retryWrites=true&w=majority'
-# OR for local MongoDB: DB_URI='mongodb://localhost:27017/your_app_db'
+OR for local MongoDB: DB_URI='mongodb://localhost:27017/your_app_db'
 PORT=5000
 
 Important: Replace <your-atlas-username>, <your-atlas-password>, <your-cluster-name>, and <your-database-name> with your actual MongoDB Atlas credentials. If using local MongoDB, adjust the DB_URI accordingly.
@@ -82,16 +82,16 @@ The server should start on http://localhost:5000 (or your chosen PORT) and conne
 3. Frontend Setup
 Open a new terminal window and navigate back to the root of your project, then into the frontend directory:
 
-cd .. # Go back to project root if you're in backend
+cd .. Go back to project root if you're in backend
 cd frontend
 
 Install frontend dependencies:
 
-npm install # or yarn install
+npm install  or yarn install
 
 Start the React development server:
 
-npm start # or yarn start
+npm start  or yarn start
 
 This will typically open the application in your browser at http://localhost:3000.
 
@@ -109,18 +109,17 @@ Observe the console and network tab in your browser's developer tools for succes
 Verify the new user document in your MongoDB database (using MongoDB Compass or Atlas UI).
 
 📂 Project Structure
-user-registration-app/
+react-app/
 ├── backend/
 │   ├── node_modules/
-│   ├── .env          # Environment variables (ignored by Git)
+│   ├── .env          // Environment variables (ignored by Git)
 │   ├── package.json
-│   ├── server.js     # Express server setup, MongoDB connection, API routes
+│   ├── server.js     // Express server setup, MongoDB connection, API routes
 └── frontend/
     ├── node_modules/
     ├── public/
     ├── src/
-    │   ├── App.js    # Main React component, form logic
-    │   ├── index.css # Basic styling
+    │   ├── App.js    // Main React component, form logic
+    │   ├── index.css // Basic styling
     │   └── index.js
     ├── package.json
-    └── README.md
